@@ -2,6 +2,20 @@ section {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+.navbar {
+  background-color: black;
+}
+
+.hero .container .box .text {
+  color: yellow;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.hero .container .box .btn {
+  color: yellow;
+  background-color: black;
+}
 
 .box > h1 {
   font-family: "Baskervville SC", serif;
@@ -76,7 +90,7 @@ section {
 }
 
 .col > p > a:hover {
-  color: #b72323;
+  color: yellow;
 }
 
 .copyright {
@@ -85,6 +99,13 @@ section {
 
 .hero-box .box:nth-child(1) {
   --animate-delay: 0.5s;
+}
+
+.player .container {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
 }
 
 /* media quary */
@@ -122,6 +143,10 @@ section {
   .kami-box img {
     width: 300px;
     border-radius: 2px;
+  }
+
+  .box > p {
+    text-align: center;
   }
 
   .service-box1 .service i {
